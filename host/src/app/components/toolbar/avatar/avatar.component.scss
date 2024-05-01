@@ -1,0 +1,16 @@
+.avatar {
+    display: flex;
+    flex: 1;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    position: relative;
+    background-color: var(--avatar-bg-color);
+    font-size: var(--avatar-font-size);
+    color: var(--transparent-fg-color);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 0.625rem;
+    margin-right: 0.313rem;
+}

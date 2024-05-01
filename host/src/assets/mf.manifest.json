@@ -1,0 +1,6 @@
+{
+	"home": "http://localhost:4201/remoteEntry.js",
+	"teams": "http://localhost:4202/remoteEntry.js",
+	"chat": "http://localhost:4203/remoteEntry.js",
+	"mail": "http://localhost:4204/remoteEntry.js"
+}

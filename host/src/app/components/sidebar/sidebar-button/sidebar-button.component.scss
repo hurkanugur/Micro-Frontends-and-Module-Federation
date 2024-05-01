@@ -1,0 +1,66 @@
+.sidebar-unselected-button-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    color: var(--transparent-fg-color);
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 0.938rem;
+    position: relative;
+}
+
+.sidebar-selected-button-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    color: var(--selected-transparent-fg-color);
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 0.938rem;
+    position: relative;
+
+}
+
+.sidebar-unselected-button-container:hover {
+    color: var(--hover-fg-color);
+}
+
+.sidebar-button-selected-item-decoration {
+    display: flex;
+    height: 100%;
+    width: var(--sidebar-decoration-width);
+    background-color: var(--selected-transparent-fg-color);
+    position: relative;
+}
+
+.sidebar-button-unselected-item-decoration {
+    display: flex;
+    height: 100%;
+    width: var(--sidebar-decoration-width);
+    position: relative;
+}
+
+.sidebar-button-icon-text-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sidebar-button-icon-text-container i {
+    font-size: var(--icon-size);
+}
+
+.sidebar-button-icon-text-container span {
+    margin-top: 0.313rem;
+    text-align: center;
+    font-size: var(--sidebar-font-size);
+}

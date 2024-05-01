@@ -1,0 +1,16 @@
+.toolbar-button-container {
+    display: flex;
+    flex: 1;
+    margin-left: 0.625rem;
+    margin-right: 0.938rem;
+    cursor: pointer;
+}
+
+.toolbar-button-container i {
+    color: var(--colored-fg-color);
+    font-size: var(--icon-size);
+}
+
+.toolbar-button-container i:hover {
+    color: var(--hover-fg-color);
+}

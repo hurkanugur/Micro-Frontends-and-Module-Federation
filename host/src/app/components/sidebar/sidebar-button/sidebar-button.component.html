@@ -1,0 +1,16 @@
+<div *ngIf="isSelected" class="sidebar-selected-button-container" (click)="onClick()">
+    <div class="sidebar-button-selected-item-decoration"></div>
+    <div class="sidebar-button-icon-text-container">
+        <i [class]="buttonIcon"></i>
+        <span>{{buttonText}}</span>
+    </div>
+    <div class="sidebar-button-unselected-item-decoration"></div>
+</div>
+<div *ngIf="isSelected === false" class="sidebar-unselected-button-container" (click)="onClick()">
+    <div class="sidebar-button-unselected-item-decoration"></div>
+    <div class="sidebar-button-icon-text-container">
+        <i [class]="buttonIcon"></i>
+        <span>{{buttonText}}</span>
+    </div>
+    <div class="sidebar-button-unselected-item-decoration"></div>
+</div>

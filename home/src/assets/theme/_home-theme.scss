@@ -1,0 +1,34 @@
+@import '../variable/variable';
+
+$home-theme-map: (
+    // General
+    #{$--transparent-fg-color}: #373737,
+    #{$--colored-fg-color}: white,
+    #{$--selected-transparent-fg-color}: #6f72cc,
+    #{$--selected-colored-fg-color}: #6f72cc,
+    #{$--hover-fg-color}: #6f72cc,
+    #{$--icon-size}: 1.25rem,
+    #{$--text-font-size}: 0.875rem,
+    #{$--title-font-size}: 1.5rem,
+
+    // Sidebar
+    #{$--sidebar-bg-color}: #ebebeb,
+    #{$--sidebar-font-size}: 0.625rem,
+    #{$--sidebar-width}: 4.375rem,
+    #{$--sidebar-decoration-width}: 0.313rem,
+
+    // Toolbar
+    #{$--toolbar-bg-color}: #444791,
+    #{$--toolbar-height}: 3.75rem,
+
+    // Field
+    #{$--field-bg-color}: white,
+
+    // Avatar
+    #{$--avatar-size}: 2.188rem,
+    #{$--avatar-font-size}: 1.25rem,
+    #{$--avatar-bg-color}: white,
+
+    // Content
+    #{$--content-bg-color}: white,
+);

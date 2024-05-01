@@ -1,0 +1,38 @@
+@import 'home-theme';
+@import 'teams-theme';
+@import 'chat-theme';
+@import 'mail-theme';
+@import 'calendar-theme';
+
+@mixin generate-theme-map($map: ()) {
+
+    @each $key,
+    $value in $map {
+        #{$key}: $value;
+    }
+}
+
+:root.home * {
+    @include generate-theme-map($home-theme-map);
+    transition: background-color 1s !important;
+}
+
+:root.teams * {
+    @include generate-theme-map($teams-theme-map);
+    transition: background-color 1s !important;
+}
+
+:root.chat * {
+    @include generate-theme-map($chat-theme-map);
+    transition: background-color 1s !important;
+}
+
+:root.mail * {
+    @include generate-theme-map($mail-theme-map);
+    transition: background-color 1s !important;
+}
+
+:root.calendar * {
+    @include generate-theme-map($calendar-theme-map);
+    transition: background-color 1s !important;
+}

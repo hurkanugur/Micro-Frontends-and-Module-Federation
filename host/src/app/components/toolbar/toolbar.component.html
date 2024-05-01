@@ -1,0 +1,13 @@
+<div class="toolbar-container">
+
+    <app-toolbar-button buttonIcon="pi pi-bars" (buttonClickEvent)="menuButtonOnClick()"></app-toolbar-button>
+
+    <div class="toolbar-search-bar">
+        <span class="p-input-icon-right">
+            <i class="pi pi-search" (click)="searchButtonOnClick()"></i>
+            <input type="text" pInputText placeholder="Quick Search..." />
+        </span>
+    </div>
+
+    <app-avatar avatarLetter="H" (avatarClickEvent)="avatarOnClick()"></app-avatar>
+</div>

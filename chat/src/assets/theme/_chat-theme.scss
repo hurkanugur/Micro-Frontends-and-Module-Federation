@@ -1,0 +1,34 @@
+@import '../variable/variable';
+
+$chat-theme-map: (
+    // General
+    #{$--transparent-fg-color}: #C7C7C7,
+    #{$--colored-fg-color}: white,
+    #{$--selected-transparent-fg-color}: #f4b701,
+    #{$--selected-colored-fg-color}: #f4b701,
+    #{$--hover-fg-color}: #f4b701,
+    #{$--icon-size}: 1.25rem,
+    #{$--text-font-size}: 0.875rem,
+    #{$--title-font-size}: 1.5rem,
+
+    // Sidebar
+    #{$--sidebar-bg-color}: #333333,
+    #{$--sidebar-font-size}: 0.625rem,
+    #{$--sidebar-width}: 4.375rem,
+    #{$--sidebar-decoration-width}: 0.313rem,
+
+    // Toolbar
+    #{$--toolbar-bg-color}: #FFC107,
+    #{$--toolbar-height}: 3.75rem,
+
+    // Field
+    #{$--field-bg-color}: #4A4A4A,
+
+    // Avatar
+    #{$--avatar-size}: 2.188rem,
+    #{$--avatar-font-size}: 1.25rem,
+    #{$--avatar-bg-color}: #5E5E5E,
+
+    // Content
+    #{$--content-bg-color}: #262626,
+);

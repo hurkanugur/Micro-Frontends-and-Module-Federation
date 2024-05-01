@@ -1,0 +1,47 @@
+.toolbar-container {
+    display: flex;
+    width: 100%;
+    height: var(--toolbar-height);
+    background-color: var(--toolbar-bg-color);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+}
+
+.toolbar-search-bar {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.toolbar-search-bar .p-input-icon-right {
+    display: flex;
+    flex: 1;
+}
+
+.toolbar-search-bar input {
+    display: flex;
+    flex: 1;
+    background-color: var(--field-bg-color);
+    color: var(--transparent-fg-color);
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+    font-size: var(--text-font-size);
+}
+
+.toolbar-search-bar input::placeholder {
+    color: var(--transparent-fg-color);
+}
+
+.toolbar-search-bar i {
+    color: var(--transparent-fg-color);
+    cursor: pointer;
+}
+
+.toolbar-search-bar i:hover {
+    color: var(--hover-fg-color);
+}
